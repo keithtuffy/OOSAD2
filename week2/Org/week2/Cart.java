@@ -6,11 +6,11 @@ public class Cart {
 
 	private CartItem cartItem1;
 	private CartItem cartItem2;
-	protected Collection<CartItem> cartItems;
+	protected List<CartItem> cartItems;
 
 	public Cart() {
-	cartItems = new Collection<CartItem>;
-	system.out.println("Hello");
+	cartItems = new ArrayList<>();
+	System.out.println("Hello");
 
 	cartItem1 = new CartItem();
 	cartItem1.setPrice(50);
@@ -27,7 +27,7 @@ public class Cart {
 	
 	for(int i = 0; i < cartItems.size;i++)
 	{
-		system.out.print("Item " + cartItems[i].getItemId() + "costs " + cartItems[i].getPrice() )
+		System.out.print("Item " + cartItems[i].getItemId() + "costs " + cartItems[i].getPrice() );
 		
 	}
 	
