@@ -24,4 +24,10 @@ public class Teacher extends Professional {
 		this.classYear = classYear;
 	}
 
+	public Teacher()
+	{
+		
+	}
+
+
 }
