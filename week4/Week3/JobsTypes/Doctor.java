@@ -4,7 +4,6 @@ public class Doctor extends Professional {
 
 	private String areaOfWork;
 	private String gender;
-	private Specialization specialization;
 
 	public String getAreaOfWork() {
 		return this.areaOfWork;

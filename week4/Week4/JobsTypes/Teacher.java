@@ -7,7 +7,6 @@ public class Teacher extends Professional {
 	Collection<Module> teaches;
 	private int numStudents;
 	private int classYear;
-	private Module Module;
 	private Degree degree;
 
 	public int getNumStudents() {
@@ -25,11 +24,5 @@ public class Teacher extends Professional {
 	public void setClassYear(int classYear) {
 		this.classYear = classYear;
 	}
-
-	public Teacher()
-	{
-		
-	}
-
 
 }
