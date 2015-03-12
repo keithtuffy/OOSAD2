@@ -1,4 +1,4 @@
-package Week3.JobsTypes;
+package Week4.JobsTypes;
 
 public class Module {
 
@@ -22,7 +22,7 @@ public class Module {
 	}
 
 	public void printModule() {
-		System.out.println(numCredits + "number of credits");
+
 	}
 
 }

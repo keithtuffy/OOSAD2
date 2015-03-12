@@ -1,4 +1,4 @@
-package Week3.JobsTypes;
+package Week4.JobsTypes;
 
 public class Qualification {
 
